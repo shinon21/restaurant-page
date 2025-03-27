@@ -1,10 +1,14 @@
 import { createHome } from "./home";
+import { createMenu } from "./menu";
 import "./style.css";
 
-const appendHome = () => {
-    const content = document.querySelector("#content");
-    const home = createHome();
-    content.append(home);
+const content = document.querySelector("#content");
+const home = createHome();
+const menu = createMenu();
+
+const switchContent = (newContent) => {
+    content.replaceChildren();
+    content.append(newContent);
 }
 
-appendHome();
+switchContent(menu);
