@@ -23,5 +23,5 @@ const switchContent = (newContent) => {
     content.append(newContent);
 }
 
-switchContent(home);
+switchContent(menu);
 handleNavigation();
