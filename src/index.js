@@ -1,3 +1,4 @@
+import { createAbout } from "./about";
 import { createHome } from "./home";
 import { createMenu } from "./menu";
 import "./style.css";
@@ -5,8 +6,9 @@ import "./style.css";
 const content = document.querySelector("#content");
 const home = createHome();
 const menu = createMenu();
+const about = createAbout();
 
-const paths = { "home": home, "menu": menu, }
+const paths = { "home": home, "menu": menu, "about": about }
 
 const handleNavigation = () => {
     const navButtons = document.querySelectorAll("nav button");
