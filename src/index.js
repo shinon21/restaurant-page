@@ -1,3 +1,10 @@
+import { createHome } from "./home";
 import "./style.css";
 
-console.log("Running!");
+const appendHome = () => {
+    const content = document.querySelector("#content");
+    const home = createHome();
+    content.append(home);
+}
+
+appendHome();
