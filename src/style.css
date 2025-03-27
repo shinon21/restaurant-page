@@ -58,6 +58,27 @@ main {
     padding: 2rem;
 }
 
+nav button {
+    padding: 0.6rem 1.5rem;
+    background-color: rgb(136, 204, 228);
+    border: none;
+    border-radius: 5px;
+}
+
+nav button:hover {
+    background-color: rgb(146, 214, 238);
+}
+
+nav button:active {
+    background-color: rgb(156, 224, 248);
+}
+
+header h1 {
+    color: rgb(136, 204, 228);
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
 main {
     display: flex;
     flex-direction: column;
