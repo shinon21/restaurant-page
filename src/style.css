@@ -45,9 +45,9 @@ header nav {
 
 header,
 main {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
     width: 40rem;
-    padding: 1rem 2rem;
+    padding: 2rem;
 }
 
 main {
@@ -56,4 +56,14 @@ main {
     gap: 1rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
+}
+
+img {
+    display: block;
+}
+
+.home img {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
 }
