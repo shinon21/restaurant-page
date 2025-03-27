@@ -34,6 +34,7 @@ body {
     align-items: center;
     font-family: "Oxanium", sans-serif;
     overflow-y: scroll;
+    background-attachment: fixed;
 }
 
 header {
@@ -102,5 +103,17 @@ img {
 .food img {
     width: 100%;
     height: auto;
+}
 
+article {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid white;
+}
+
+.price {
+    font-weight: bold;
+    align-self: flex-end;
 }
